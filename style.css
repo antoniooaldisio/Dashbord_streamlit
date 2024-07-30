@@ -1,0 +1,18 @@
+#MainMenu, header, footer {
+    visibility: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img {
+    height: 50px; /* Ajuste a altura conforme necessário */
+}
+
+h1 {
+    text-align: center;
+}
