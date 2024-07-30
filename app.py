@@ -10,7 +10,7 @@ def local_css(file_name):
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 def apply_css_and_favicon():
-    local_css("src/style.css")
+    local_css("style.css")
     st.markdown(
         """
         <head>
@@ -109,7 +109,7 @@ def main():
     apply_css_and_favicon()
     add_header()
 
-    data = load_data('src/dados_ficticios.csv')
+    data = load_data('dados_ficticios.csv')
 
     col1, col2 = st.columns(2)
     with col1:
